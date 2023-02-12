@@ -39,4 +39,4 @@ jobs:
         context: ./
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/imageName:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/istio-java-product:latest
